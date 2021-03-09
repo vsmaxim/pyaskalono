@@ -1,0 +1,3 @@
+[submodule "dataset/modules/license-list-data"]
+	path = dataset/modules/license-list-data
+	url = https://github.com/spdx/license-list-data.git

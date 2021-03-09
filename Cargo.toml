@@ -1,0 +1,16 @@
+[package]
+name = "pyaskalono"
+version = "0.1.0"
+authors = ["Maxim Vasilev <Maxim.Vasilev@jetbrains.com>"]
+edition = "2018"
+
+[lib]
+name = "pyaskalono"
+crate-type = ["cdylib"]
+
+[dependencies]
+askalono = "0.4.3"
+
+[dependencies.pyo3]
+version = "0.13.2"
+features = ["extension-module"]
